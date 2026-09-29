@@ -33,7 +33,7 @@ export default function Home(){return <>
  </div></section>
 
  <section className="bg-[#daf7f6] py-24 lg:py-28"><div className="container-shell grid items-center gap-12 lg:grid-cols-2">
-  <div className="relative aspect-[4/3] overflow-hidden rounded-[30px]"><Image src="/images/hero-community.png" alt="Children and a community worker walking together" fill className="object-cover object-[70%_center]" sizes="(max-width:1024px) 100vw,50vw"/></div>
+  <div className="relative aspect-[4/3] overflow-hidden rounded-[30px]"><Image src="/images/hero-community-detail.png" alt="Children and a community worker walking together" fill className="object-cover object-[70%_center]" sizes="(max-width:1024px) 100vw,50vw"/></div>
   <div className="lg:pl-8"><p className="eyebrow">Why dignity matters</p><h2 className="section-title mt-5">Hope works best when it belongs to everyone</h2><p className="mt-6 text-lg leading-8 text-black/65">We believe people should be seen for their strengths—not reduced to their hardest moment. Respect, collaboration, and responsible stewardship guide every step.</p><div className="mt-8 grid gap-4 sm:grid-cols-2"><p className="flex gap-3"><ShieldCheck className="shrink-0"/>Registered 501(c)(3)</p><p className="flex gap-3"><Heart className="shrink-0"/>Community-led action</p></div><Link href="/our-mission-vision" className="button-ghost mt-9">Our mission & vision <ArrowRight size={17}/></Link></div>
  </div></section>
 
