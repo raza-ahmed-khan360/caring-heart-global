@@ -1,0 +1,4 @@
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+
+export function PageHero({eyebrow,title,description,action}:{eyebrow:string;title:string;description:string;action?:boolean}){return <section className="relative overflow-hidden bg-[#153f35] py-20 text-white sm:py-28"><div className="soft-grid absolute inset-0 opacity-25"/><div className="absolute -right-16 -top-24 h-80 w-80 rounded-full border-[70px] border-[#e1aa4d]/12"/><div className="container-shell relative"><p className="eyebrow text-[#e1aa4d]">{eyebrow}</p><h1 className="display-title mt-5 max-w-4xl text-6xl font-semibold sm:text-7xl">{title}</h1><p className="mt-7 max-w-2xl text-lg leading-8 text-white/72">{description}</p>{action&&<Link href="/giving-page-1-1" className="button-primary mt-8">Support the mission <ArrowRight size={18}/></Link>}</div></section>}
