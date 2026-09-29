@@ -5,7 +5,7 @@ import { programs } from "@/lib/content";
 
 export default function Home(){return <>
  <section className="relative min-h-[650px] overflow-hidden bg-[#222] text-white lg:min-h-[690px]">
-  <Image src="/images/hero-community.png" alt="A community worker walking with children near a clean-water point" fill priority className="object-cover object-[64%_center]" sizes="100vw"/>
+  <Image src="/images/hero-community.png" alt="A community worker walking with children near a clean-water point" fill priority loading="eager" className="object-cover object-[64%_center]" sizes="100vw"/>
   <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/38 to-black/5"/>
   <div className="container-shell relative flex min-h-[650px] items-end pb-24 pt-16 lg:min-h-[690px] lg:items-center lg:pb-12">
    <div className="max-w-[640px]"><p className="eyebrow">Compassion in action</p><h1 className="display-title mt-5 text-5xl sm:text-7xl lg:text-[5.25rem]">Care that reaches further</h1><p className="mt-6 max-w-[580px] text-lg leading-8 text-white/88">Caring Hearts supports children and families across Africa with immediate relief and community-led pathways to a more secure future.</p><div className="mt-8 flex flex-wrap gap-3"><Link href="/giving-page-1-1" className="button-primary">Make a difference <ArrowRight size={17}/></Link><Link href="/programs" className="button-cyan">Explore our programs <ArrowRight size={17}/></Link></div></div>
